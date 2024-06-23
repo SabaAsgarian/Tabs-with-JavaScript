@@ -1,0 +1,15 @@
+ 
+
+.txt {
+    height: 0;
+    position: relative;
+   
+    transition: 1s;
+    >div {
+        position: absolute;
+       
+        top: 0;
+        left: 0;
+        transition: 1s;
+    }
+} 

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.bgg{
+    background:linear-gradient(to bottom right, #ad5389, #3c1053);
+}
+.bggf{
+    background:linear-gradient(to bottom right, #3a3a3a, #111012);
+}
+@font-face {
+    font-family: ph;
+    src: url(../font/PatrickHand-Regular.ttf);
+}
