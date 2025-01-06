@@ -82,96 +82,12 @@
    
 </body>
 <script>
-   
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabs with JavaScript</title>
-    <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/javascript.css">
-    <link rel="stylesheet" href="css/output.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
-    
-</head>
-<body class=""> 
-    <section class="w-full  2xl:container 2xl:mx-auto h-[2000px] bgg *:font-ph">
-        <div class="row flex justify-center items-center ">
-            <section class="w-[500px]   ">
-                <div class="tabs">
-                    <ul class="row flex justify-center items-center *:mx-[2px] pt-56 cursor-pointer *:cursor-pointer *:text-white *:list-none *:text-[15px] *:lg:text-[20px] ">
-                        <li class="bg-[#af4d98] flex py-[8px] px-[8px] rounded-t-lg"><span class="flex py-[2px] px-[2px] cursor-pointer rounded-lg  " >WORK STUFF</span></li>
-                        <li class="bg-[#d66ba0]  flex py-[8px] px-[8px] rounded-t-lg"><span class="flex py-[2px] px-[2px] cursor-pointer rounded-lg  " >FOOD</span></li>
-                        <li class="hidden md:flex bg-[#e5a9a9]  py-[8px] px-[8px] rounded-t-lg "><span class="flex py-[2px] px-[2px] cursor-pointer rounded-lg  " >BAKING</span></li>
-                        <li class="hidden md:flex bg-[#6cb6bb]  py-[8px] px-[8px] rounded-t-lg"><span class="flex py-[2px] px-[2px] cursor-pointer rounded-lg  " >HOBBIES</span></li>
-                        <li class="bg-transparent py-[2px] px-[3px]"><span>X</span></li>
-                    </ul>
-                    <div class="row txt *:bg-white *:text-center">
-                        <div class="border-[20px] border-[#af4d98] rounded-lg">
-                            <p class="w-full">Productize. Optics accountable talk. Thought shower. High performance keywords market-facing drink from the firehose, or you better eat a reality sandwich before you walk back in that boardroom, but accountable talk knowledge process outsourcing.
-
-                                What's our go to market strategy? cross functional teams enable out of the box brainstorming nor zeitgeist viral engagement. Deep dive. Organic growth quick sync, feed the algorithm.</p>
-                            <img class="w-full object-cover" src="img/work.jpg" alt="">
-                        </div>
-                        <div class="border-[20px] border-[#d66ba0] rounded-lg">
-                            <p class="w-full ">I love cheese, especially the big cheese gouda. Monterey jack red leicester roquefort cheese and wine fromage frais smelly cheese melted cheese dolcelatte. Fromage smelly cheese manchego paneer cheese and wine danish fontina macaroni cheese red leicester.
-
-                                Stilton fondue queso emmental when the cheese comes out everybody's happy croque monsieur queso paneer. Say cheese pecorino swiss boursin halloumi cottage cheese taleggio boursin.</p>
-                            <img class="w-full  object-cover" src="img/food.jpg" alt="">
-                        </div >
-                        <div class="border-[20px] border-[#e5a9a9] rounded-lg">
-                            <p class="w-full">Cupcake ipsum dolor sit amet jujubes tart. Tiramisu icing gingerbread halvah cake. Marzipan cake soufflé cookie brownie ice cream cupcake. Dragée croissant bonbon ice cream oat cake jelly cookie. Wafer candy dessert jelly jelly-o.
-
-                                Oat cake donut powder pastry wafer brownie cupcake caramels bear claw. Bonbon caramels oat cake cake shortbread. Cake cheesecake candy icing bear claw marshmallow icing jelly. Halvah biscuit pudding danish cookie bonbon gummies.</p>
-                            <img class="w-full object-cover" src="img/bake.jpg" alt="">
-                        </div>
-                        <div class="border-[20px] border-[#6cb6bb] rounded-lg">
-                            <p class="w-full">Certainly! Hobbies are activities we do for pleasure, relaxation, or self-improvement. They vary widely, from sports and creative endeavors like painting to cooking and reading1. A perfect hobby provides an outlet for relaxation and fun, allowing us to unwind and enjoy our free time2. Whether it’s running, yoga, puzzles, or any other interest, hobbies enrich our lives and help us become more well-rounded individuals</p>
-                            <img class="w-full object-cover" src="img/hobbies.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </section>
-    <footer class="w-full h-[200px] bggf">
-        <!-- my signature -->
-            <figure class=" group w-[130px] h-[130px] flex flex-wrap fixed z-10 left-[10px] bottom-[40px] rounded-full cursor-pointer ">
-                <img class="bg-[#ffc0cb] relative z-10 w-full h-full object-cover rounded-full *:text-white" src="img/me.png" alt="">
-                <section class="group-hover:right-[-41px] group-hover:opacity-100 group-hover:visible w-[40px] h-[90px] absolute top-0 right-[70px] opacity-0 invisible duration-[.4s] ease-linear hover:right-[-45px] hover:opacity-100 hover:visible">
-                    <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#ffc0cb] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-pink hover:text-black" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1"></i></a>
-                    <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#ffc0cb] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-pink hover:text-black" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class=" icon-linkedin-3 "></i></a>
-                    <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#ffc0cb] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-pink hover:text-black" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class=" icon-instagram-1"></i></a>
-                    <a class="flex items-center justify-center w-full h-[40px] rounded-full bg-[#ffc0cb] text-white flex-[18px] mb-[5px] duration-[.3s] ease-linear relative hover:bg-pink hover:text-black" href="mailto:computer.sabaa@gmail.com" target="_blank"><i class="icon-mail"></i></a>
-                                            
-                </section>
-            </figure>
-            <!-- my signature -->
-            <section class="w-full h-1/2 border-t-purple-200 border-t-[1px] *:text-white flex justify-center md:justify-around  py-[50px]">
-                <p class="w-1/3">Developed By <a class="hover:text-[#7373abcf]" href="https://github.com/SabaAsgarian" target="_blank">Saba Asgarian</a> with Tailwind & JavaScript</p>
-                <ul class=" ps-[20px] flex flex-wrap  *:text-[#fef6e6] text-[15px] lg:text-[24px] *:text-[15px] *:lg:text-[30px] justify-start  lg:justify-end items-center *:mx-[8px]">
-                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#7373abcf] justify-center items-center bg-[#45455f]" href="https://github.com/SabaAsgarian" target="_blank"><i class="icon-github-circled-1 "></i></a></li>
-                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#7373abcf] justify-center items-center bg-[#45455f]" href="https://www.linkedin.com/in/saba-asgarian-69161088?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class=" icon-linkedin-3"></i></a></li>
-                    <li><a class="flex py-[4px] px-[4px]  hover:bg-[#7373abcf] justify-center items-center bg-[#45455f]" href="https://www.instagram.com/saba_asgarian_web?igsh=M2Z2dTU3cHFmeW1o&utm_source=qr" target="_blank"><i class=" icon-instagram-1"></i></a></li>
-                    <li> <a class="flex py-[4px] px-[4px]  hover:bg-[#7373abcf] justify-center items-center bg-[#45455f]" href="mailto:computer.sabaa@gmail.com"><i class="icon-mail"></i></a></li>
-                </ul>
-            </section>
-            <span class="relative">
-                <a class="hover:bg-[#45455f] fixed right-[2%] bottom-[5%] bg-[#333333cc] flex h-[50px] w-[40px] justify-center items-center text-white text-[18px] " href="#"><i class="icon-up-open-2"></i></a>
-            </span>
-    </footer>
-   
-</body>
-<script>
     const li =document.querySelectorAll('ul>li')
     const div = document.querySelectorAll('.txt>div')
     const span = document.querySelectorAll('ul>li>span')
     div.forEach((value)=>{
         value.setAttribute('data-h',value.clientHeight)
-        value.style.opacity='0'
+        value.style.opacity='1'
     })
    li.forEach((value,index)=>{
     value.addEventListener('click',()=>{
@@ -199,9 +115,6 @@
         })
     })
    })
-        
-</script>
-</html>
         
 </script>
 </html>
