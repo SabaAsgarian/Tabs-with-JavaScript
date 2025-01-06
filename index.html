@@ -89,6 +89,12 @@
         value.setAttribute('data-h',value.clientHeight)
           value.style.opacity = index === 0 ? '1' : '0'; // Show the first div
     })
+       // Apply initial styles to the first span element
+    if (span.length > 0) {
+        span[0].style.background = 'white';
+        span[0].style.color = 'black';
+        span[0].style.border = '2px solid black';
+    }
    li.forEach((value,index)=>{
     value.addEventListener('click',()=>{
         div.forEach((value)=>{
